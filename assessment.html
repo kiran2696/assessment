@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Assessment</title>
+<style>
+body{background-color:#E3E3E3;}
+.first{
+background-color:#F0F0F0;
+}
+.header
+{
+background-color:#F0F0F0;
+height:10px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size:28px;
+}
+.form{
+background-color:#FFFFFF;
+border-radius:3px;
+}
+.form_label{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight:bold;
+padding-left:50px;
+padding-top:13px;
+}
+.form_text{
+padding-left:50px;
+}
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+	border-radius:5px;
+	background-color:#EEEEEE;
+	}
+input[type=date] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+	border-radius:5px;
+	background-color:#EEEEEE;
+}
+input[type=submit] {
+    width: 15%;
+    padding: 10px 5px;
+    margin: 0px 0;
+	border-radius:5px;
+	background-color:#777777;
+	color:#FFFFFF;
+	font-size:18px;
+}
+
+</style>
+</head>
+<body>
+<div class="first">
+<table border="0">
+<tr><td width="40%">
+<div>
+<p class="header">&nbsp Task Tracker</p>
+<p style="padding-bottom:35px; color:#666666; font-weight:bold; font-family:Arial, Helvetica, sans-serif; font-size:14px;">&nbsp&nbsp&nbsp v2.0</p>
+</div>
+</td>
+<td width="19%"></td>
+<td align="right">
+<p align="left" style="padding-left:5px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-seriff; font-size:10px">Rules
+<p align="left" style="padding-left:5px;  font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-seriff; font-size:10px">1.You must prepend new tasks to the existing tasks
+<br />2.If the new task name and existing task name are similar<br /> by 40% or more,then add a UI label "possible duplicate" to the new task that is prepended
+</td>
+</tr>
+<tr><td>
+<div class="form">
+<form action="#" method="post">
+<p style="color:#999999; font-size:18px; padding-top:50px; padding-left:50px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif">Create a Task</p>
+<p class="form_label">Task Name
+<br /><input type="text" maxlength="20" placeholder="New Task" /></p>
+<p class="form_label">Date <br /><input type="date"/></p>
+<p class="form_label">Assigned To<br /><input type="text" maxlength="20" placeholder="John Doe" /></p>
+<p class="form_text"><input type="submit" value="Submit"></p>
+</form>
+<br />	
+</div>
+</td>
+<td width="40%" colspan="2">
+<div class="form">
+<form action="#" method="post">
+<p style="color:#999999; font-size:18px; padding-top:50px; padding-left:50px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif">Existing Tasks</p>
+<p class="form_label">Task Name
+<br /><input type="text" maxlength="20" placeholder="New Task" /></p>
+<p class="form_label">Date <br /><input type="date"/></p>
+<p class="form_label">Assigned To<br /><input type="text" maxlength="20" placeholder="John Doe" /></p>
+<p class="form_text"><input type="submit" value="Submit"></p>
+</form>
+<br />	
+</div>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
